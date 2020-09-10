@@ -1,1 +1,5 @@
 runtime: python38
+
+network:
+  forwarded_ports:
+    - 8081/tcp
