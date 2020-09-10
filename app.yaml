@@ -1,11 +1,2 @@
 runtime: python38
 threadsafe: false
-
-network:
-  forwarded_ports:
-    - 8081/tcp
-
-handlers:
-- url: /
-  http_headers:
-    Access-Control-Allow-Origin: https://streamlit-python-app.uc.r.appspot.com/
