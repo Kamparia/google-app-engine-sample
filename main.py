@@ -9,7 +9,7 @@ from single_state import fetch_state_charts
 
 #####################################################################
 
-def main():
+def app():
     ## load data
     data = load_data()
     states_csv = data[0]
@@ -97,5 +97,4 @@ def main():
     )
 
 
-if __name__ == "__main__":
-    main()
+app()
