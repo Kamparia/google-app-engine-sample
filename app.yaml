@@ -3,3 +3,7 @@ runtime: python38
 network:
   forwarded_ports:
     - 8081/tcp
+
+handlers:
+  http_headers:
+    Access-Control-Allow-Origin: https://streamlit-python-app.uc.r.appspot.com/
